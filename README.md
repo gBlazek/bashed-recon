@@ -5,7 +5,6 @@ This script is designed to automate web reconnaissance, performing tasks such as
 ### Features
 
 - Configurable via CLI: The script allows setting various scan parameters such as delay times, port numbers, resolver files, etc.
-- Logs and output capturing: All output is captured in log files, with normalized versions available for easier reading.
 - Subdomain enumeration: Uses tools like subfinder to find subdomains.
 - DNS resolution: Resolves DNS entries using tools like shuffledns, puredns, and dnsx.
 - Nmap scanning: Scans resolved IPs for open ports using nmap.
