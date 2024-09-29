@@ -28,6 +28,20 @@ Tools: The script relies on the following external tools:
   
 Permissions: The user running the script needs write access to the directory where the script is executed.
 
+### File Structure
+
+Assuming an ID (folder name where roots.txt it's placed) of "domain", the following directory structure will be created:
+/scans/
+    └── domain_<timestamp>/
+        ├── roots.txt
+        ├── subs.txt
+        ├── resolved.txt
+        ├── nmap.xml
+        ├── http.json
+        ├── crawl.txt
+        └── js/
+            └── <downloaded_js_files>
+
 ### Usage
 ```bash
 ./scan.sh [OPTIONS] <ID>
