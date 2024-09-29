@@ -33,22 +33,22 @@ Permissions: The user running the script needs write access to the directory whe
 ./scan.sh [OPTIONS] <ID>
 ```
 
-- Positional Argument: <ID> The identifier for the scan, used to create scan-specific directories and files.
+Positional Argument: <ID> The identifier for the scan, used to create scan-specific directories and files.
 
 ### Options:
 
-    -h, --help: Show the help message and exit.
-    -v: Enable verbose output.
-    -L <path>: Path to the lists directory (default: lists directory in script).
-    -U <file>: Path to the user agents file (default: user-agents.txt in the lists directory).
-    -R1 <file>: Path to the first resolver list (default: resolvers1.txt in the lists directory).
-    -R2 <file>: Path to the second resolver list (default: resolvers2.txt in the lists directory).
-    -P <ports>: Number of top ports to scan with nmap (default: 1000).
-    -S <path>: Path to store scan results (default: scans/<id>_timestamp).
-    -C <path>: Path to the scope directory (default: scope/<id>).
-    --min-delay <seconds>: Minimum delay between operations (default: 1 second).
-    --max-delay <seconds>: Maximum delay between operations (default: 5 seconds).
-    --jitter <value>: Jitter value for rate limiting (default: 0.5).
+  -h, --help: Show the help message and exit.
+  -v: Enable verbose output.
+  -L <path>: Path to the lists directory (default: lists directory in script).
+  -U <file>: Path to the user agents file (default: user-agents.txt in the lists directory).
+  -R1 <file>: Path to the first resolver list (default: resolvers1.txt in the lists directory).
+  -R2 <file>: Path to the second resolver list (default: resolvers2.txt in the lists directory).
+  -P <ports>: Number of top ports to scan with nmap (default: 1000).
+  -S <path>: Path to store scan results (default: scans/<id>_timestamp).
+  -C <path>: Path to the scope directory (default: scope/<id>).
+  --min-delay <seconds>: Minimum delay between operations (default: 1 second).
+  --max-delay <seconds>: Maximum delay between operations (default: 5 seconds).
+  --jitter <value>: Jitter value for rate limiting (default: 0.5).
 
   ### Example Command:
 
