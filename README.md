@@ -4,37 +4,35 @@ This script is designed to automate web reconnaissance, performing tasks such as
 
 ### Features
 
-    Configurable via CLI: The script allows setting various scan parameters such as delay times, port numbers, resolver files, etc.
-    Logs and output capturing: All output is captured in log files, with normalized versions available for easier reading.
-    Subdomain enumeration: Uses tools like subfinder to find subdomains.
-    DNS resolution: Resolves DNS entries using tools like shuffledns, puredns, and dnsx.
-    Nmap scanning: Scans resolved IPs for open ports using nmap.
-    HTTP scanning and crawling: Scans for active HTTP services using httpx and crawls sites for JavaScript files using gospider.
-    Log normalization: Output logs are normalized by removing ANSI color codes and redundant whitespace.
-    Rate limiting: Implements jitter-based rate limiting to avoid overloading targets.
+- Configurable via CLI: The script allows setting various scan parameters such as delay times, port numbers, resolver files, etc.
+- Logs and output capturing: All output is captured in log files, with normalized versions available for easier reading.
+- Subdomain enumeration: Uses tools like subfinder to find subdomains.
+- DNS resolution: Resolves DNS entries using tools like shuffledns, puredns, and dnsx.
+- Nmap scanning: Scans resolved IPs for open ports using nmap.
+- HTTP scanning and crawling: Scans for active HTTP services using httpx and crawls sites for JavaScript files using gospider.
+- Log normalization: Output logs are normalized by removing ANSI color codes and redundant whitespace.
+- Rate limiting: Implements jitter-based rate limiting to avoid overloading targets.
 
 ### Requirements
 
-    Tools: The script relies on the following external tools:
+Tools: The script relies on the following external tools:
         subfinder
         shuffledns
         puredns
         dnsx
         nmap
-        httpx
+        httpx (from projectdiscovery repo)
         gospider
         jq
         bc
-    Permissions: The user running the script needs write access to the directory where the script is executed.
+        Permissions: The user running the script needs write access to the directory where the script is executed.
 
 ### Usage
 ```bash
-./scan.sh [OPTIONS] <id>
+./scan.sh [OPTIONS] <ID>
 ```
 
-Positional Argument:
-
-    <id>: The identifier for the scan, used to create scan-specific directories and files.
+Positional Argument: <ID>: The identifier for the scan, used to create scan-specific directories and files.
 
 ### Options:
 
