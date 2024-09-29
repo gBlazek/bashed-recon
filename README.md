@@ -36,6 +36,7 @@ Permissions: The user running the script needs write access to the directory whe
 Positional Argument: <ID> The identifier for the scan, used to create scan-specific directories and files.
 
 ### Options:
+
 -h, --help: Show the help message and exit.
 -v: Enable verbose output.
 -L <path>: Path to the lists directory (default: lists directory in script).
@@ -49,7 +50,7 @@ Positional Argument: <ID> The identifier for the scan, used to create scan-speci
 --max-delay <seconds>: Maximum delay between operations (default: 5 seconds).
 --jitter <value>: Jitter value for rate limiting (default: 0.5).
 
-  ### Example Command:
+### Example Command:
 
 ```bash
 ./scan.sh domain
