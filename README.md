@@ -25,7 +25,7 @@ Tools: The script relies on the following external tools:
 - gospider
 - jq
 - bc
-        Permissions: The user running the script needs write access to the directory where the script is executed.
+Permissions: The user running the script needs write access to the directory where the script is executed.
 
 ### Usage
 ```bash
