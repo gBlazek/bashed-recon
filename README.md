@@ -33,7 +33,7 @@ Permissions: The user running the script needs write access to the directory whe
 ./scan.sh [OPTIONS] <ID>
 ```
 
-Positional Argument: <ID> : The identifier for the scan, used to create scan-specific directories and files.
+Positional Argument: "<ID>" : The identifier for the scan, used to create scan-specific directories and files.
 
 ### Options:
 
