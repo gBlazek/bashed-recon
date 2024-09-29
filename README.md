@@ -59,4 +59,4 @@ Positional Argument: <ID> The identifier for the scan, used to create scan-speci
   ```bash
 ./scan.sh -v -L /path/to/lists -U /path/to/user-agents.txt -R1 /path/to/resolvers1.txt -R2 /path/to/resolvers2.txt -P 1000 -S /path/to/scans -C /path/to/scope --min-delay 2 --max-delay 6 --jitter 0.3 my-scan-id
 ```
-- based on skeleton from projectdiscovery.io
+- Based on skeleton from projectdiscovery.io
