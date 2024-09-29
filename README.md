@@ -16,15 +16,15 @@ This script is designed to automate web reconnaissance, performing tasks such as
 ### Requirements
 
 Tools: The script relies on the following external tools:
-        subfinder
-        shuffledns
-        puredns
-        dnsx
-        nmap
-        httpx (from projectdiscovery repo)
-        gospider
-        jq
-        bc
+- subfinder
+- shuffledns
+- puredns
+- dnsx
+- nmap
+- httpx (from projectdiscovery repo)
+- gospider
+- jq
+- bc
         Permissions: The user running the script needs write access to the directory where the script is executed.
 
 ### Usage
