@@ -1,12 +1,12 @@
 ### Todo
 
-- [ ] Integration with Shodan / Censys API 
-- [ ] Data analyse automation
+- [ ] Potential Integrations with Databases / Shodan / Censys API 
+- [ ] 
 - [ ]  
 
 ### In Progress
 
-- [ ] 
+- [X] JS data analyse automation
 
 ### Done ✓
 
