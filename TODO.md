@@ -1,6 +1,6 @@
 ### Todo
 
-- [ ] Potential Integrations with Databases / Shodan / Censys API 
+- [ ] Integrations with Databases / Shodan / Censys API 
 - [ ] 
 - [ ]  
 
