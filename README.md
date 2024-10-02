@@ -29,7 +29,7 @@ Permissions: The user running the script needs write access to the directory whe
 
 ### File Structure
 
-Assuming an ID (folder name where roots.txt it's placed) of "domain", the following directory structure will be created:
+Assuming an ID (directory named "domain" ) the following directory structure will be created:
 ```
 /scans/
     └── domain_<timestamp>/
